@@ -1,10 +1,147 @@
 /*
-	Incorperating fonts!
+	the main formating
 */
 
+body{
+	width:100%;
+	height: 100%;
+	background-image:url("https://image.freepik.com/free-photo/white-paper-background_1154-683.jpg");
+	background-attachment: fixed;
+	background-size: 70%;
+	background-repeat: repeat;
+}
 
+/*
+	links to other pages
+*/
+
+table {
+	position
+    border:none;
+    border-collapse: collapse;
+}
+
+table td {
+	padding:10px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+
+
+/*
+	positioning of the name and links to other pages
+*/
+.top{
+	height:100px;
+	width:100%;
+	background-color:lightgray;
+	border-bottom:10px;
+	border-color:darkgray;
+}
+
+.rightButtons{
+	width:20%;
+	margin:30px 50px 25px 0px;
+	float:right;
+}
+.topName{
+	text-align: center;
+	background-color: #00b38f;
+	float:left;
+	padding:10px;
+	margin:0px 0px 0px 100px;
+}
 
 .nhead {
 	font-family:"Arial", sans-serif;
-	color: green;
+	color: white;
+}
+
+/*
+	The about box
+*/
+
+.body{
+	width:60%;
+	float:left;
+	background-color:white;
+	margin-left: 70px;
+	margin-top:50px;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	height: 60%;
+}
+
+#aboMe{
+	color:#00b38f;
+	margin-left: 30px;
+}
+
+#pic{
+	width:50%;
+	border: 5px solid lightgray;
+	border-radius: 8px;
+	background-color: lightgray;
+	margin:13px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	float:left;
+}
+
+#picpic{
+	margin:auto;
+	
+}
+
+.para{
+	font-family: "Arial";
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 2px;
+	font-size: 16px;
+	padding: 15px;
+	color:darkgray;
+}
+
+
+/* Links and stuff on the right side of the body */
+
+.social{
+	width:20%;
+	margin:50px 5% 25px 25px;
+	float:right;
+	padding:10px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+}
+
+#connect{
+	color:#00b38f;
+	margin-top: 10px;
+}
+
+#connect2{
+	margin-top:2px;
+}
+
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+    display: table-cell;
 }
