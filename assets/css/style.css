@@ -8,6 +8,7 @@ body{
 	background-image:url("https://image.freepik.com/free-photo/white-paper-background_1154-683.jpg");
 	background-attachment: fixed;
 	background-size: 70%;
+	position: relative;
 }
 
 /*
@@ -45,11 +46,16 @@ table td:last-child {
 	background-color:lightgray;
 	border-bottom:10px;
 	border-color:darkgray;
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
 }
+
+
 
 .rightButtons{
 	width:20%;
-	margin:30px 50px 25px 0px;
+	margin:30px 50px 0px 0px;
 	float:right;
 }
 .topName{
@@ -136,11 +142,31 @@ table td:last-child {
 .Row
 {
     display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 10px; 
 }
 .Column
 {
     display: table-cell;
+}
+
+/* bottom thing */
+
+.bottom{
+	background-color: darkgray;
+	position: fixed;
+	width:100%;
+	height: 50px;
+	border-top: 5px solid #00b38f;
+	bottom:0px;
+
+}
+
+.copy{
+	color:black;
+	text-align: center;
+	margin-top: 25px;
+	font-family: "Arial";
+	font-size:10px;
 }
